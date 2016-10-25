@@ -23,8 +23,10 @@ body{
 }
 
 #links a:hover{
-  background-color: black;
+  background-color: #FDFBFB;
+  color:#ff0000;
 }
+
 #form{
   display: block;
 }
