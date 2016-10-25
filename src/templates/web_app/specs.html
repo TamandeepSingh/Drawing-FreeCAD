@@ -30,17 +30,18 @@
             <li><a href="#">SIM</a></li>
             <li><a href="#">other</a></li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right" id="links" >
             <li><a href="#">Login</a></li>
         </ul>
     </div>
   </nav>
-  <h1>specification</h1>
-
-  {% for key, value in lists.items %}
-      {{ key }} : {{ value }} </br>
-  {% endfor %}
-
-  <button class="btns" ><a href="{% url 'download' %}" >download</a></button>
+  <h1>Specification</h1>
+  <center>
+    {% for key, value in lists.items %}
+        {{ key }} : {{ value }} </br>
+    {% endfor %}
+    <br />
+    <button class="btns" ><a href="{% url 'download' %}" >Download</a></button>
+  </center>
 
 </body>
