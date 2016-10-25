@@ -1,5 +1,6 @@
 h1{
   text-align: center;
+  font-family: sans-serif;
 }
 
 .navbar{
@@ -20,6 +21,9 @@ body{
   color:#F7F2F2;
   font-size: 120%;
   text-decoration: bold;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 #links a:hover{
@@ -47,10 +51,14 @@ a{
 
 a:hover{
   text-decoration: none;
+  font-family: sans-serif;
 }
 
 .form-control{
   width: 350px;
+}
+label{
+  font-family: sans-serif;
 }
 
 #autofill{
@@ -74,8 +82,9 @@ a:hover{
   color: #FDFBFB;
   text-align: center;
   border-radius: 3px;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  font-family:sans-serif;
 
 }
 
